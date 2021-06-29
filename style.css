@@ -19,6 +19,10 @@ header h1 {
     margin: 0;
     display: inline;
 }
+header h2 {
+    color: thistle;
+    text-align: center;
+}
 header a {
     text-decoration: none;
     color: #fce138;
@@ -102,3 +106,20 @@ section {
     font-size: 16px;
 }
 /* Hero Style End */
+
+.intro h2 {
+    /*add this alongside your other declarations */
+    display: inline-block;
+    font-size:55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+}
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+}
