@@ -63,12 +63,13 @@ section {
 }
 /* Hero Style Start */
 .hero {
-    background-image: url(../run-buddy/assets/hero/hero.jpg);
+    background-image: url(./assets/hero/hero.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
 .hero-form {
     border: solid 3px #024e76;
     background-color: #fce138;
@@ -79,13 +80,16 @@ section {
     bottom: 120px;
     right: 140px;
 }
+
 .hero-form h3 {
     font-size:24px;
     margin: 0;
 }
+
 .hero-form p {
     margin:5px 0 15px 0;
 }
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -95,9 +99,11 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .hero-form label {
     margin: 0 5px;
 }
+
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -106,9 +112,11 @@ section {
     font-size: 16px;
 }
 /* Hero Style End */
+
 .intro {
     text-align: center;
 }
+
 .intro p {
     /* add this alongside your other declarations */
     margin: 0 auto;
@@ -117,10 +125,12 @@ section {
     width: 80%;
     font-size: 20px;
 }
+
 .steps {
     text-align: center;
     background: #fce138
 }
+
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -129,6 +139,7 @@ section {
     display: inline-block;
     border-bottom: 3px solid;
 }
+
 .primary-border {
     border-color: #fce138;
 }
@@ -243,3 +254,4 @@ section {
   }
   
   /* REACH OUT STYLES END */
+
